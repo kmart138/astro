@@ -16,10 +16,9 @@ class Rhino:
 
 
 def main():
-
     my_rhino = Rhino(
-        arm_length=0.0,     y
-        leg_length=120.0,     
+        arm_length=0.0,  # Removed stray 'y'
+        leg_length=120.0,
         num_eyes=2,
         has_tail=True,
         is_furry=False

@@ -1,0 +1,18 @@
+import math
+
+def main():
+    steps = 1000
+    start = 0
+    end = 2
+
+    step_size = (end - start) / (steps - 1)
+
+    print("x value   sin(x)")
+    print("----------------")
+    
+    for i in range(steps):
+        x = start + i * step_size
+        sin_x = math.sin(x)
+        print(x, " ", sin_x)
+
+main()
