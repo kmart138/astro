@@ -11,3 +11,5 @@ def main():
 
 if __name__ == "__main__":
     main() 
+
+9**3 + 8 = 737 
